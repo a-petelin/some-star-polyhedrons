@@ -1,1 +1,9 @@
+#render {
+    width: 100%;
+    height: 75%;
+}
 
+#control-form {
+    width: 100%;
+    height: 25%;
+}
