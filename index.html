@@ -12,12 +12,19 @@
     <meta name="msapplication-config" content="browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="css/main.css">
-    <script type="text/javascript" src="js/main.js"></script>
   </head>
   <body>
     <div id="control-form"></div>
-    <div>
-      <canvas id="render">
-    </div>
+    <div id="render"></div>
   </body>
+  <script src="https://unpkg.com/three/build/three.min.js"></script>
+   <script type="module">
+   import {OrbitControls} from 'https://threejsfundamentals.org/threejs/resources/threejs/r114/examples/jsm/controls/OrbitControls.js';
+   import('./js/main.js')
+    .then(() => {   
+       init();
+       animate();
+    });
+   </script>
+    <script type="text/javascript" src="js/main.js"></script>
 </html>
