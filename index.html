@@ -19,12 +19,10 @@
   </body>
   <script src="https://unpkg.com/three/build/three.min.js"></script>
    <script type="module">
-   import {OrbitControls} from 'https://threejsfundamentals.org/threejs/resources/threejs/r114/examples/jsm/controls/OrbitControls.js';
-   import('./js/main.js')
-    .then(() => {   
+   import {init, animate} from '/js/main.js';
+   
        init();
        animate();
-    });
+    
    </script>
-    <script type="text/javascript" src="js/main.js"></script>
 </html>
