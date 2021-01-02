@@ -2,6 +2,7 @@ let camera, scene, renderer;
 let geometry, material, mesh;
 
 import {OrbitControls} from 'https://threejsfundamentals.org/threejs/resources/threejs/r114/examples/jsm/controls/OrbitControls.js';
+import {Plane, Line, Vect} from './geomLib.js';
 
 function getJSON(url, callback) {
   let xhr = new XMLHttpRequest();
