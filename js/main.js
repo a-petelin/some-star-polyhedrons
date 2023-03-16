@@ -1,6 +1,7 @@
 let camera, scene, renderer;
 let geometry, material, mesh;
 
+import * as THREE from 'three';
 import {OrbitControls} from 'https://threejsfundamentals.org/threejs/resources/threejs/r114/examples/jsm/controls/OrbitControls.js';
 import {Plane, Line, Vect} from './geomLib.js';
 
